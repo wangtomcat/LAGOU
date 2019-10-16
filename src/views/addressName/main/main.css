@@ -1,0 +1,20 @@
+.titl{
+    position: absolute;
+    top: 44px;
+    left: 0;
+    width: 100%;
+    background: url(../assets/back-info.jpg) repeat;
+    background-size: 100% 125px;
+    height: 125px;
+    line-height: 125px;
+    color: #00b38a;
+    font-size: 28px;
+    text-align: center;
+}
+.content{
+    top: 169px;
+    bottom: 0;
+}
+.active{
+    background-color: #ccc;
+}

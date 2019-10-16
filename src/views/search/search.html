@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/search.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="title text-center">拉勾网</h1>
+    </header>
+    <div class="searchdiv border-bottom">
+      <b class="iconfont icon-fanhui cityback"></b>
+      <div class="left-btn text-center border-right">
+        <span>全国</span>
+        <span class="iconfont icon-fanhui"></span>
+      </div>
+      <div class="rightinput">
+        <input type="text" placeholder="搜索职位或公司">
+        <span class="iconfont icon-sousuo"></span>
+      </div>
+    </div>
+
+    <main class="content">
+      <div class="wrap">
+        <!-- <div class="cityheader border-bottom">热门城市</div>
+        <div class="citylist border-bottom">
+          <span>北京</span>
+          <span>上海</span>
+          <span>广州</span>
+          <span>深圳</span>
+          <span>成都</span>
+          <span>杭州</span>
+        </div> -->
+      </div>
+    </main>
+    <div class="main">
+      <div class="maincont">    
+        <!-- 下拉刷新的结构 -->
+        <div class="refresh">
+          <img src="../assets/arrow.jpg" alt="">
+          <span>下拉可以刷新...</span>
+        </div>
+  
+        <!-- 需要滚动的内容开头 -->
+  
+        <ul class="list">
+          <!-- <li class="item border-bottom">
+            <div class="left">
+              <img src="http://dummyimage.com/100x100" alt="">
+            </div>
+            <div class="center">
+              <h3 class="title">前锋</h3>
+              <p class="job">岗位[city]</p>
+              <p class="time">时间</p>
+            </div>
+            <div class="right text-center">
+              10k-15k
+            </div>
+          </li> -->
+          
+        </ul>
+  
+  
+  
+  
+        <!-- 需要滚动的内容结尾 -->
+        <!-- 上拉加载更多的结构 -->
+        <div class="loadmore">
+          <img src="../assets/arrow.jpg" alt="">
+          <span>上拉可以加载更多...</span>
+        </div>
+    
+      </div>
+    </div>
+    <div class="searword">
+      <ul class="keyword">
+        <!-- <li class="border-bottom"><span>webq</span> <b>X</b></li> -->
+      </ul>
+    </div>
+
+    <!-- 底部导航 -->
+    <nav class="tab-bar"></nav>
+
+    <script src="../lib/zepto.js"></script>
+    <script src="../lib/iscroll-probe.js"></script>
+    <script src="../lib/fastclick.js"></script>
+    <script src="../js/search.js"></script>
+  </body>
+</html>

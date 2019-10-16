@@ -1,0 +1,35 @@
+.titl{
+    position: absolute;
+    top: 44px;
+    left: 0;
+    width: 100%;
+    background: url(../assets/back-info.jpg) repeat;
+    background-size: 100% 125px;
+    height: 125px;
+    line-height: 125px;
+    text-align: center;
+}
+.titl span{
+    color: #00b38a;
+    font-size: 20px;
+}
+.conten{
+    position: absolute;
+    top:169px;
+    left: 0; 
+    width: 100%;
+}
+.conten ul{
+    width: 100%;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+.conten ul li{
+    height: 44px;
+    line-height: 44px;
+    color: #666;
+    font-size: 16px;
+    border-bottom: 1px solid #e8e8e8;
+    box-sizing: border-box;
+    padding: 0 15px 0 10px;
+}

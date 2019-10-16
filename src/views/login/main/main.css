@@ -1,0 +1,48 @@
+.content{
+  position: absolute;
+  top: 44px;
+  left: 0;
+  width: 100%;
+  padding: 30px;
+  box-sizing: border-box;
+}
+.tel, .code{
+  height: 50px;
+}
+.tel input, .code input{
+  height: 50px;
+  outline: none;
+  border: none;
+  font-size: 14px;
+  line-height: 50px;
+}
+.tel input{
+  width: 100%;
+}
+.code input{
+  width: 50%;
+}
+.code span{
+  float: right;
+  line-height: 50px;
+  font-size: 14px;
+  color: #555;
+}
+.login-btn{
+  margin: 20px 0;
+  height: 40px;
+  background: #00b38a;
+  text-align: center;
+  line-height: 40px;
+  color: #fff;
+  border-radius: 5px;
+}
+.regiester-btn{
+  position: absolute;
+  left: 50%;
+  bottom: 50px;
+  transform: translateX(-50%);
+  color: #00b38a;
+  padding: 20px;
+  font-size: 14px;
+}

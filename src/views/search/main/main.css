@@ -1,0 +1,97 @@
+.searchdiv{
+    position: absolute;
+    top: 44px;
+    left: 0;
+    height: 50px;
+    width: 100%;
+}
+.searchdiv .left-btn{
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+.searchdiv .left-btn span:nth-of-type(1){
+    width: 32px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.searchdiv .left-btn span:nth-of-type(2){
+    font-size: 12px;
+    transform: scale(0.6) rotate(-90deg);
+    font-weight: bold;
+    padding: 0 5px;
+}
+.searchdiv .rightinput{
+    width: 80%;
+    height: 100%;
+    float: right;
+}
+.searchdiv .rightinput input{
+    display: block;
+    border: none;
+    padding: 10px 0;
+    height: 30px;
+    line-height: 30px;
+    color: #333;
+    width: 75%;
+    margin-left: 5%;
+    font-size: 16px;
+    float: left;
+    outline: none;
+}
+.searchdiv .rightinput span{
+    display: inline-block;
+    width: 20%;
+    height: 100%;
+    line-height: 50px;
+    text-align: center;
+}
+.searchdiv b{
+    position: absolute;
+    display: inline-block;
+    height: 44px;
+    line-height: 44px;
+    padding: 0 10px;
+    font-size: 16px;
+    top: -44px;
+    left: 0;
+    display: none;
+}
+.content{
+    top: 44px;
+    bottom: 49px;
+    display: none;
+}
+.active{
+    background-color: #ccc;
+}
+.searword{
+    position: absolute;
+    top: 94px;
+    bottom: 49px;
+    width: 100%;
+}
+.searword .keyword{
+    width: 100%;
+}
+.searword .keyword li{
+    background-color: #eee;
+    padding-left: 20px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    font-size: 16px;
+    color: #888;
+}
+.searword .keyword li span{
+    width: 80%;
+    display: inline-block;
+    height: 100%;
+}
+.searword .keyword li b{
+    float: right;
+    width: 20%;
+    height: 100%;
+    text-align: center;
+}
